@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Books - Library Management</title>
+  <style>
+    body { font-family: Arial; max-width: 1200px; margin: 0 auto; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+    button { padding: 5px 10px; margin: 2px; cursor: pointer; }
+    .add-form { margin-top: 20px; padding: 20px; background: #f9f9f9; }
+    .nav { margin-bottom: 20px; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="/books">Books</a> |
+    <a href="/rentals">Rentals</a> |
+    <a href="/auth/logout">Logout</a>
+  </div>
+
+  <h1>Books</h1>
+
+  <% if (isAdmin) { %>
+    <div class="add-form">
+      <h2>Add New Book</h2>
+      <form method="POST" action="/books">
+        <div>
+          <label>Name:</label>
+          <input type="text" name="name" required>
+        </div>
+        <div>
+          <label>Year of Publication:</label>
+          <input type="number" name="yearOfPublication">
+        </div>
+        <div>
+          <label>ISBN:</label>
+          <input type="text" name="isbn">
+        </div>
+        <div>
+          <label>Volume in Stock:</label>
+          <input type="number" name="volumeInStock" required>
+        </div>
+        <button type="submit">Add Book</button>
+      </form>
+    </div>
+  <% } %>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Year</th>
+        <th>ISBN</th>
+        <th>In Stock</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% books.forEach(book => { %>
+        <tr>
+          <td><%= book.name %></td>
+          <td><%= book.year_of_publication %></td>
+          <td><%= book.isbn %></td>
+          <td><%= book.volume_in_stock %></td>
+          <td>
+            <% if (!isAdmin && book.volume_in_stock > 0) { %>
+              <form method="POST" action="/rentals/borrow/<%= book.id %>" style="display: inline;">
+                <button type="submit">Borrow</button>
+              </form>
+            <% } %>
+            <% if (isAdmin) { %>
+              <form method="POST" action="/books/delete/<%= book.id %>" style="display: inline;">
+                <button type="submit">Delete</button>
+              </form>
+            <% } %>
+          </td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>
