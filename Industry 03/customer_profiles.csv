@@ -1,0 +1,501 @@
+customer_id,customer_name,age,gender,region,state,payment_preference,frequency_of_visits,visits_last_month,membership_status,registration_date
+CUST_000001,ABC_Verma_5672,56,Female,East,West Bengal,Both,High,10,Bronze,2022-07-26
+CUST_000002,ABC_Reddy_8269,69,Male,North,Haryana,Debit Card,High,0,Silver,2024-09-10
+CUST_000003,ABC_Verma_8071,46,Female,North,Haryana,Debit Card,Medium,12,Bronze,2024-01-03
+CUST_000004,ABC_Joshi_8188,32,Male,North,Delhi,Both,Low,18,Silver,2022-01-14
+CUST_000005,ABC_Gupta_3834,60,Male,West,Madhya Pradesh,Debit Card,High,23,Bronze,2023-02-11
+CUST_000006,ABC_Kumar_7919,25,Female,North,Uttar Pradesh,Credit Card,Low,2,Gold,2023-11-30
+CUST_000007,ABC_Reddy_1338,38,Female,South,Karnataka,Debit Card,High,23,Silver,2024-04-23
+CUST_000008,ABC_Patel_6630,56,Female,North,Rajasthan,Debit Card,Medium,16,Bronze,2022-11-13
+CUST_000009,ABC_Joshi_8757,36,Female,North,Delhi,Debit Card,Low,4,Bronze,2024-10-31
+CUST_000010,ABC_Gupta_9617,40,Other,South,Karnataka,Debit Card,Low,19,Silver,2022-11-23
+CUST_000011,ABC_Singh_1987,28,Female,East,Jharkhand,Both,Low,20,Silver,2023-04-19
+CUST_000012,ABC_Patel_9005,28,Male,South,Karnataka,Both,Low,7,Bronze,2024-02-07
+CUST_000013,ABC_Joshi_3259,41,Female,South,Telangana,Debit Card,Medium,25,Bronze,2023-01-21
+CUST_000014,ABC_Sharma_1921,70,Male,East,West Bengal,Credit Card,Low,30,Bronze,2023-10-02
+CUST_000015,ABC_Joshi_5320,53,Male,West,Goa,Both,High,13,Bronze,2023-10-05
+CUST_000016,ABC_Singh_2934,57,Male,West,Gujarat,Both,Low,3,Gold,2022-12-19
+CUST_000017,ABC_Sharma_9250,41,Male,East,Jharkhand,Credit Card,Medium,10,Gold,2024-04-02
+CUST_000018,ABC_Joshi_9045,20,Other,North,Rajasthan,Both,Low,19,Bronze,2024-10-29
+CUST_000019,ABC_Reddy_6548,39,Female,North,Delhi,Both,Medium,14,Gold,2023-10-09
+CUST_000020,ABC_Reddy_5212,70,Female,East,Odisha,Debit Card,Medium,18,Silver,2022-11-02
+CUST_000021,ABC_Kumar_6297,19,Male,East,Bihar,Debit Card,Medium,6,Bronze,2023-01-25
+CUST_000022,ABC_Patel_8587,41,Male,East,Odisha,Debit Card,Low,18,Bronze,2022-09-29
+CUST_000023,ABC_Joshi_3937,61,Male,North,Haryana,Credit Card,High,27,Bronze,2022-05-16
+CUST_000024,ABC_Gupta_8240,47,Male,South,Tamil Nadu,Debit Card,High,18,Bronze,2024-03-01
+CUST_000025,ABC_Sharma_2881,55,Female,East,Odisha,Both,Medium,10,Bronze,2023-03-05
+CUST_000026,ABC_Patel_2497,19,Female,South,Tamil Nadu,Credit Card,High,25,Gold,2022-08-10
+CUST_000027,ABC_Joshi_3026,38,Female,South,Andhra Pradesh,Debit Card,Low,4,Silver,2023-12-08
+CUST_000028,ABC_Verma_4442,50,Male,South,Telangana,Debit Card,Medium,4,Silver,2023-05-01
+CUST_000029,ABC_Verma_5903,29,Female,South,Tamil Nadu,Debit Card,Low,29,Silver,2023-11-11
+CUST_000030,ABC_Joshi_8078,39,Female,South,Karnataka,Both,Medium,21,Bronze,2024-02-13
+CUST_000031,ABC_Kumar_8794,61,Female,East,West Bengal,Debit Card,High,7,Silver,2023-08-16
+CUST_000032,ABC_Gupta_1801,42,Female,East,Bihar,Debit Card,Low,9,Silver,2024-06-02
+CUST_000033,ABC_Singh_3514,66,Male,East,Odisha,Debit Card,Medium,5,Silver,2022-09-05
+CUST_000034,ABC_Kumar_3826,44,Male,East,Odisha,Debit Card,Medium,14,Gold,2024-10-02
+CUST_000035,ABC_Verma_7342,59,Male,East,Odisha,Credit Card,Medium,15,Silver,2023-02-26
+CUST_000036,ABC_Joshi_2933,45,Female,West,Maharashtra,Debit Card,Low,27,Gold,2023-09-13
+CUST_000037,ABC_Patel_1369,33,Male,East,Jharkhand,Credit Card,Medium,16,Gold,2023-05-10
+CUST_000038,ABC_Singh_6790,32,Male,West,Maharashtra,Credit Card,Low,30,Gold,2022-09-15
+CUST_000039,ABC_Kumar_7146,64,Male,South,Tamil Nadu,Debit Card,Low,7,Silver,2024-08-03
+CUST_000040,ABC_Sharma_3541,68,Male,East,Odisha,Debit Card,Medium,7,Bronze,2022-09-10
+CUST_000041,ABC_Joshi_8150,61,Female,South,Kerala,Both,High,24,Silver,2024-10-11
+CUST_000042,ABC_Verma_3883,72,Female,East,West Bengal,Debit Card,Medium,8,Silver,2022-11-14
+CUST_000043,ABC_Patel_8006,69,Male,South,Telangana,Debit Card,High,1,Bronze,2021-12-24
+CUST_000044,ABC_Verma_5535,74,Male,South,Andhra Pradesh,Debit Card,High,14,Gold,2024-05-09
+CUST_000045,ABC_Singh_2790,20,Female,South,Karnataka,Credit Card,Medium,17,Bronze,2024-05-07
+CUST_000046,ABC_Gupta_8270,54,Male,East,Jharkhand,Debit Card,Medium,2,Bronze,2023-03-21
+CUST_000047,ABC_Patel_5267,68,Male,South,Karnataka,Credit Card,Low,16,Silver,2024-01-15
+CUST_000048,ABC_Patel_4772,24,Male,West,Goa,Both,Low,3,Bronze,2024-05-03
+CUST_000049,ABC_Reddy_4557,38,Male,South,Andhra Pradesh,Credit Card,Low,29,Gold,2022-06-06
+CUST_000050,ABC_Reddy_2474,26,Female,South,Andhra Pradesh,Debit Card,Medium,3,Bronze,2022-06-22
+CUST_000051,ABC_Verma_9714,56,Female,West,Gujarat,Credit Card,Medium,13,Silver,2022-03-21
+CUST_000052,ABC_Singh_9654,35,Male,South,Tamil Nadu,Both,Medium,8,Bronze,2023-06-19
+CUST_000053,ABC_Joshi_2434,21,Male,North,Delhi,Debit Card,Low,8,Gold,2022-10-24
+CUST_000054,ABC_Joshi_3853,42,Female,West,Madhya Pradesh,Debit Card,High,24,Bronze,2022-05-18
+CUST_000055,ABC_Sharma_1327,31,Female,North,Uttar Pradesh,Credit Card,Low,25,Bronze,2024-08-24
+CUST_000056,ABC_Gupta_5873,67,Female,South,Andhra Pradesh,Debit Card,Medium,22,Gold,2023-01-22
+CUST_000057,ABC_Gupta_2413,26,Female,East,Jharkhand,Credit Card,Medium,29,Silver,2023-03-23
+CUST_000058,ABC_Sharma_3828,43,Male,South,Telangana,Both,Low,30,Bronze,2022-12-25
+CUST_000059,ABC_Verma_6894,70,Male,West,Maharashtra,Credit Card,Medium,17,Bronze,2024-08-04
+CUST_000060,ABC_Sharma_1190,19,Female,West,Gujarat,Credit Card,Low,9,Silver,2022-04-07
+CUST_000061,ABC_Reddy_3012,37,Male,North,Haryana,Credit Card,Low,20,Bronze,2023-06-13
+CUST_000062,ABC_Verma_1998,45,Female,West,Gujarat,Debit Card,Medium,3,Bronze,2024-03-18
+CUST_000063,ABC_Joshi_7409,64,Female,West,Madhya Pradesh,Debit Card,Medium,11,Bronze,2022-03-14
+CUST_000064,ABC_Reddy_5530,24,Female,West,Madhya Pradesh,Credit Card,Medium,26,Gold,2023-09-20
+CUST_000065,ABC_Reddy_5047,61,Male,West,Goa,Debit Card,Low,7,Bronze,2024-08-07
+CUST_000066,ABC_Sharma_2395,25,Female,West,Madhya Pradesh,Debit Card,Medium,1,Silver,2022-01-18
+CUST_000067,ABC_Patel_1899,64,Male,West,Maharashtra,Debit Card,Medium,21,Bronze,2022-01-26
+CUST_000068,ABC_Patel_9116,52,Female,West,Gujarat,Debit Card,Medium,12,Silver,2023-03-14
+CUST_000069,ABC_Reddy_9592,31,Female,South,Andhra Pradesh,Debit Card,Low,20,Gold,2023-02-21
+CUST_000070,ABC_Kumar_8208,34,Male,South,Karnataka,Debit Card,High,30,Bronze,2023-10-19
+CUST_000071,ABC_Verma_9094,53,Other,East,Bihar,Credit Card,Low,15,Silver,2024-04-04
+CUST_000072,ABC_Gupta_1867,67,Female,East,Bihar,Credit Card,Low,27,Bronze,2023-12-09
+CUST_000073,ABC_Verma_5201,57,Male,East,West Bengal,Both,High,1,Bronze,2024-11-04
+CUST_000074,ABC_Singh_3135,21,Male,East,West Bengal,Both,Medium,10,Bronze,2022-12-01
+CUST_000075,ABC_Verma_7325,19,Male,West,Madhya Pradesh,Debit Card,Low,9,Gold,2024-05-13
+CUST_000076,ABC_Patel_6486,23,Male,North,Punjab,Credit Card,High,14,Bronze,2024-07-22
+CUST_000077,ABC_Patel_6992,71,Male,East,Jharkhand,Debit Card,Low,16,Gold,2023-10-19
+CUST_000078,ABC_Gupta_4547,59,Female,East,Jharkhand,Debit Card,Medium,7,Gold,2024-09-03
+CUST_000079,ABC_Patel_5941,21,Male,East,Jharkhand,Credit Card,Medium,17,Bronze,2024-09-15
+CUST_000080,ABC_Sharma_1548,71,Male,North,Uttar Pradesh,Credit Card,Low,22,Silver,2022-01-03
+CUST_000081,ABC_Gupta_4682,46,Female,West,Gujarat,Debit Card,Medium,8,Silver,2024-06-02
+CUST_000082,ABC_Patel_9873,35,Male,North,Uttar Pradesh,Debit Card,Medium,24,Bronze,2022-09-30
+CUST_000083,ABC_Singh_8390,43,Female,South,Tamil Nadu,Credit Card,Medium,7,Silver,2022-05-18
+CUST_000084,ABC_Singh_8242,61,Male,East,Bihar,Credit Card,Medium,26,Silver,2024-11-01
+CUST_000085,ABC_Gupta_4409,51,Male,South,Telangana,Credit Card,High,13,Bronze,2022-07-17
+CUST_000086,ABC_Sharma_7631,27,Female,South,Tamil Nadu,Debit Card,Medium,27,Gold,2023-09-15
+CUST_000087,ABC_Reddy_2299,53,Female,East,West Bengal,Credit Card,Low,25,Bronze,2023-03-26
+CUST_000088,ABC_Sharma_4327,31,Female,North,Rajasthan,Credit Card,Medium,24,Bronze,2023-06-08
+CUST_000089,ABC_Patel_4286,48,Female,North,Rajasthan,Debit Card,Medium,17,Bronze,2022-12-12
+CUST_000090,ABC_Sharma_1453,65,Female,West,Goa,Credit Card,Medium,21,Bronze,2022-01-14
+CUST_000091,ABC_Singh_5773,32,Male,West,Goa,Debit Card,Low,19,Silver,2023-09-12
+CUST_000092,ABC_Gupta_6288,25,Male,East,Bihar,Credit Card,High,29,Silver,2024-08-10
+CUST_000093,ABC_Singh_7681,31,Female,West,Gujarat,Credit Card,Low,19,Bronze,2022-08-16
+CUST_000094,ABC_Kumar_7749,40,Female,East,Jharkhand,Credit Card,Medium,20,Bronze,2023-03-13
+CUST_000095,ABC_Sharma_3611,74,Other,South,Tamil Nadu,Debit Card,Medium,11,Bronze,2022-04-26
+CUST_000096,ABC_Sharma_3216,57,Male,East,Jharkhand,Both,High,18,Silver,2024-03-17
+CUST_000097,ABC_Sharma_1282,38,Male,South,Tamil Nadu,Both,High,13,Gold,2023-05-21
+CUST_000098,ABC_Singh_6299,33,Female,North,Rajasthan,Debit Card,Medium,16,Gold,2022-03-29
+CUST_000099,ABC_Patel_6379,62,Male,South,Telangana,Debit Card,Medium,23,Bronze,2023-01-29
+CUST_000100,ABC_Patel_6565,35,Female,East,Bihar,Credit Card,Low,20,Silver,2022-01-25
+CUST_000101,ABC_Reddy_6721,64,Female,East,West Bengal,Credit Card,Medium,2,Bronze,2022-10-06
+CUST_000102,ABC_Patel_7255,70,Male,South,Telangana,Both,Medium,25,Bronze,2023-11-03
+CUST_000103,ABC_Singh_1873,41,Female,East,Bihar,Credit Card,Medium,29,Gold,2023-06-25
+CUST_000104,ABC_Verma_7723,43,Female,East,West Bengal,Credit Card,Low,22,Bronze,2022-01-13
+CUST_000105,ABC_Gupta_6435,42,Male,East,Odisha,Credit Card,High,6,Silver,2022-10-20
+CUST_000106,ABC_Sharma_1521,62,Female,North,Uttar Pradesh,Credit Card,High,16,Bronze,2024-05-01
+CUST_000107,ABC_Singh_7847,58,Female,North,Punjab,Credit Card,High,11,Bronze,2024-01-12
+CUST_000108,ABC_Kumar_2786,46,Female,East,Bihar,Debit Card,Low,8,Bronze,2022-09-05
+CUST_000109,ABC_Singh_4926,32,Male,West,Maharashtra,Debit Card,Medium,14,Bronze,2022-12-07
+CUST_000110,ABC_Reddy_1828,62,Female,South,Karnataka,Both,Medium,17,Silver,2022-01-15
+CUST_000111,ABC_Gupta_1677,18,Male,North,Haryana,Both,Low,20,Gold,2023-08-06
+CUST_000112,ABC_Singh_3612,42,Male,South,Andhra Pradesh,Debit Card,Low,12,Bronze,2022-07-31
+CUST_000113,ABC_Joshi_1697,24,Female,North,Delhi,Credit Card,Medium,29,Gold,2024-01-02
+CUST_000114,ABC_Reddy_3615,26,Male,East,West Bengal,Debit Card,Low,20,Silver,2022-09-05
+CUST_000115,ABC_Kumar_2185,41,Male,South,Andhra Pradesh,Debit Card,Medium,29,Gold,2023-12-21
+CUST_000116,ABC_Joshi_3695,18,Female,North,Haryana,Credit Card,High,7,Bronze,2023-12-31
+CUST_000117,ABC_Verma_3448,61,Female,East,Bihar,Debit Card,Medium,13,Gold,2024-01-12
+CUST_000118,ABC_Verma_8463,25,Female,West,Goa,Debit Card,High,7,Bronze,2023-04-10
+CUST_000119,ABC_Verma_4609,41,Female,North,Punjab,Debit Card,Medium,13,Bronze,2023-11-06
+CUST_000120,ABC_Reddy_2679,28,Male,East,Odisha,Debit Card,Low,6,Gold,2023-02-07
+CUST_000121,ABC_Verma_3413,68,Male,East,Odisha,Credit Card,High,22,Gold,2022-04-04
+CUST_000122,ABC_Patel_8543,34,Male,North,Delhi,Both,High,11,Silver,2022-07-21
+CUST_000123,ABC_Verma_8745,25,Female,North,Rajasthan,Debit Card,Medium,10,Bronze,2023-01-15
+CUST_000124,ABC_Kumar_9157,52,Female,North,Delhi,Credit Card,Low,21,Silver,2024-04-13
+CUST_000125,ABC_Sharma_4324,52,Female,West,Maharashtra,Both,Medium,21,Silver,2022-04-26
+CUST_000126,ABC_Singh_2364,50,Female,North,Uttar Pradesh,Debit Card,Medium,10,Gold,2024-08-22
+CUST_000127,ABC_Verma_8529,22,Male,South,Andhra Pradesh,Both,High,24,Bronze,2024-04-16
+CUST_000128,ABC_Kumar_4315,59,Female,North,Uttar Pradesh,Debit Card,High,21,Silver,2021-12-30
+CUST_000129,ABC_Singh_5690,56,Male,South,Karnataka,Debit Card,Low,27,Bronze,2022-03-22
+CUST_000130,ABC_Gupta_6466,58,Female,South,Kerala,Credit Card,Low,28,Bronze,2022-03-06
+CUST_000131,ABC_Kumar_2582,45,Male,West,Gujarat,Credit Card,High,12,Silver,2024-07-31
+CUST_000132,ABC_Sharma_3623,24,Female,North,Rajasthan,Debit Card,Low,17,Bronze,2024-04-06
+CUST_000133,ABC_Joshi_4570,26,Male,West,Goa,Debit Card,Medium,1,Gold,2022-12-20
+CUST_000134,ABC_Sharma_1319,25,Male,East,West Bengal,Credit Card,Low,28,Bronze,2022-02-24
+CUST_000135,ABC_Patel_9811,29,Male,South,Tamil Nadu,Credit Card,Medium,20,Bronze,2024-01-30
+CUST_000136,ABC_Reddy_7337,51,Female,East,West Bengal,Both,Medium,14,Bronze,2023-01-11
+CUST_000137,ABC_Sharma_4684,50,Female,East,West Bengal,Both,Medium,19,Gold,2023-06-14
+CUST_000138,ABC_Patel_1029,65,Male,East,Jharkhand,Debit Card,Medium,26,Gold,2024-01-08
+CUST_000139,ABC_Verma_1147,72,Male,North,Delhi,Credit Card,High,17,Silver,2023-05-25
+CUST_000140,ABC_Patel_6478,40,Female,East,Bihar,Credit Card,High,30,Silver,2024-06-17
+CUST_000141,ABC_Singh_2230,41,Male,North,Rajasthan,Credit Card,Medium,14,Silver,2023-10-25
+CUST_000142,ABC_Singh_9853,54,Female,North,Uttar Pradesh,Both,Low,18,Silver,2022-09-17
+CUST_000143,ABC_Sharma_9440,52,Female,West,Madhya Pradesh,Credit Card,Medium,22,Gold,2024-10-13
+CUST_000144,ABC_Reddy_2176,61,Male,West,Madhya Pradesh,Debit Card,Medium,23,Silver,2023-02-05
+CUST_000145,ABC_Verma_9283,57,Male,West,Maharashtra,Credit Card,Low,11,Bronze,2022-09-19
+CUST_000146,ABC_Reddy_4049,39,Other,East,Odisha,Debit Card,High,12,Silver,2023-09-15
+CUST_000147,ABC_Singh_4501,44,Male,North,Rajasthan,Debit Card,Medium,21,Gold,2024-08-28
+CUST_000148,ABC_Reddy_5960,52,Male,North,Delhi,Both,Medium,10,Silver,2023-11-02
+CUST_000149,ABC_Kumar_2910,18,Female,West,Gujarat,Credit Card,Low,4,Gold,2024-07-06
+CUST_000150,ABC_Kumar_7939,52,Female,East,Bihar,Credit Card,High,28,Bronze,2022-05-10
+CUST_000151,ABC_Reddy_2835,54,Other,North,Punjab,Credit Card,Medium,0,Gold,2024-11-20
+CUST_000152,ABC_Joshi_5938,64,Female,East,West Bengal,Both,Low,23,Bronze,2023-01-05
+CUST_000153,ABC_Singh_8609,31,Male,West,Madhya Pradesh,Both,Low,2,Bronze,2023-07-23
+CUST_000154,ABC_Singh_2909,20,Male,East,Bihar,Debit Card,Medium,30,Bronze,2022-02-15
+CUST_000155,ABC_Gupta_5360,18,Female,East,Jharkhand,Debit Card,Medium,21,Bronze,2023-01-07
+CUST_000156,ABC_Kumar_1897,22,Female,West,Gujarat,Debit Card,Medium,18,Bronze,2022-08-08
+CUST_000157,ABC_Singh_1750,43,Male,West,Maharashtra,Credit Card,Low,22,Bronze,2024-02-07
+CUST_000158,ABC_Gupta_9476,72,Female,East,Bihar,Both,Medium,28,Bronze,2024-06-13
+CUST_000159,ABC_Patel_4976,31,Male,West,Goa,Debit Card,High,29,Bronze,2023-03-20
+CUST_000160,ABC_Kumar_5635,56,Female,South,Karnataka,Debit Card,Low,6,Bronze,2022-04-28
+CUST_000161,ABC_Patel_1083,44,Male,South,Tamil Nadu,Debit Card,Medium,11,Bronze,2024-03-19
+CUST_000162,ABC_Reddy_7951,26,Male,North,Punjab,Credit Card,Medium,14,Bronze,2024-08-27
+CUST_000163,ABC_Joshi_5092,32,Male,West,Gujarat,Credit Card,Medium,24,Silver,2024-06-05
+CUST_000164,ABC_Kumar_1391,32,Male,West,Gujarat,Debit Card,Medium,4,Silver,2022-11-24
+CUST_000165,ABC_Kumar_3818,43,Male,West,Madhya Pradesh,Credit Card,Medium,14,Gold,2024-07-31
+CUST_000166,ABC_Reddy_2455,59,Female,South,Telangana,Debit Card,Medium,7,Gold,2023-07-21
+CUST_000167,ABC_Reddy_1386,30,Female,West,Gujarat,Credit Card,High,9,Silver,2022-06-27
+CUST_000168,ABC_Joshi_6914,68,Female,North,Uttar Pradesh,Debit Card,Medium,25,Gold,2024-10-14
+CUST_000169,ABC_Sharma_2893,49,Other,North,Haryana,Credit Card,Low,15,Bronze,2023-02-15
+CUST_000170,ABC_Patel_7845,56,Male,East,Odisha,Debit Card,High,7,Silver,2023-07-02
+CUST_000171,ABC_Sharma_8868,66,Male,West,Maharashtra,Debit Card,Low,0,Bronze,2023-01-07
+CUST_000172,ABC_Singh_4118,69,Female,North,Haryana,Credit Card,Medium,11,Gold,2024-06-17
+CUST_000173,ABC_Verma_2194,49,Male,West,Goa,Debit Card,Low,4,Silver,2022-01-03
+CUST_000174,ABC_Sharma_4488,21,Other,North,Punjab,Debit Card,Low,2,Bronze,2023-02-07
+CUST_000175,ABC_Verma_2212,47,Male,South,Andhra Pradesh,Debit Card,Medium,0,Bronze,2024-02-17
+CUST_000176,ABC_Singh_8266,54,Other,South,Tamil Nadu,Both,Low,3,Gold,2022-01-02
+CUST_000177,ABC_Joshi_1369,40,Male,North,Rajasthan,Debit Card,Low,7,Bronze,2022-01-04
+CUST_000178,ABC_Patel_8565,56,Female,South,Karnataka,Credit Card,Medium,2,Bronze,2023-01-18
+CUST_000179,ABC_Joshi_1826,62,Female,East,Bihar,Credit Card,Medium,9,Silver,2023-03-19
+CUST_000180,ABC_Reddy_7843,32,Other,East,Bihar,Credit Card,Medium,1,Silver,2022-05-14
+CUST_000181,ABC_Kumar_8320,60,Male,East,Bihar,Debit Card,Low,10,Bronze,2022-02-28
+CUST_000182,ABC_Sharma_7977,46,Female,East,Odisha,Credit Card,Low,24,Bronze,2024-04-21
+CUST_000183,ABC_Sharma_1517,53,Other,West,Gujarat,Debit Card,Low,9,Bronze,2023-05-29
+CUST_000184,ABC_Verma_6923,30,Female,West,Maharashtra,Debit Card,Medium,20,Bronze,2024-05-01
+CUST_000185,ABC_Verma_4813,49,Female,West,Goa,Debit Card,Low,13,Silver,2024-03-25
+CUST_000186,ABC_Singh_2459,24,Female,North,Uttar Pradesh,Debit Card,High,6,Silver,2024-09-30
+CUST_000187,ABC_Gupta_9909,68,Male,West,Madhya Pradesh,Credit Card,Medium,26,Silver,2022-05-02
+CUST_000188,ABC_Kumar_4415,39,Female,North,Punjab,Credit Card,High,26,Bronze,2023-01-22
+CUST_000189,ABC_Joshi_1628,45,Female,North,Haryana,Debit Card,Medium,1,Bronze,2022-05-03
+CUST_000190,ABC_Reddy_2303,19,Female,East,Jharkhand,Debit Card,Medium,8,Bronze,2022-08-19
+CUST_000191,ABC_Patel_2992,59,Male,West,Goa,Debit Card,Medium,15,Silver,2024-07-19
+CUST_000192,ABC_Gupta_5704,62,Male,East,West Bengal,Debit Card,Medium,12,Silver,2022-07-03
+CUST_000193,ABC_Joshi_4272,74,Female,South,Telangana,Credit Card,Medium,8,Silver,2023-01-23
+CUST_000194,ABC_Gupta_4017,70,Female,South,Telangana,Both,Medium,19,Bronze,2022-05-22
+CUST_000195,ABC_Reddy_2495,23,Male,North,Rajasthan,Debit Card,Medium,3,Bronze,2023-10-14
+CUST_000196,ABC_Verma_2713,45,Female,South,Kerala,Debit Card,Medium,21,Gold,2022-10-08
+CUST_000197,ABC_Patel_2230,45,Male,South,Karnataka,Credit Card,Medium,9,Bronze,2022-06-01
+CUST_000198,ABC_Patel_8561,61,Male,East,Odisha,Debit Card,High,25,Gold,2024-10-10
+CUST_000199,ABC_Sharma_7816,61,Male,South,Tamil Nadu,Debit Card,Medium,25,Bronze,2022-08-01
+CUST_000200,ABC_Reddy_5450,37,Male,North,Haryana,Credit Card,Medium,21,Gold,2023-02-01
+CUST_000201,ABC_Gupta_6580,47,Female,North,Uttar Pradesh,Both,Medium,11,Bronze,2022-09-16
+CUST_000202,ABC_Kumar_3644,28,Male,South,Telangana,Credit Card,Medium,16,Gold,2022-07-10
+CUST_000203,ABC_Verma_8985,72,Other,East,Odisha,Both,Medium,13,Bronze,2022-06-03
+CUST_000204,ABC_Reddy_6422,45,Other,South,Andhra Pradesh,Debit Card,Low,13,Silver,2022-05-25
+CUST_000205,ABC_Verma_3828,42,Female,South,Karnataka,Credit Card,Medium,24,Gold,2022-03-06
+CUST_000206,ABC_Verma_2109,56,Female,South,Tamil Nadu,Debit Card,Medium,1,Silver,2024-05-14
+CUST_000207,ABC_Reddy_7876,50,Male,North,Punjab,Both,High,20,Gold,2023-09-01
+CUST_000208,ABC_Gupta_8643,18,Female,West,Maharashtra,Debit Card,Medium,24,Gold,2023-07-01
+CUST_000209,ABC_Sharma_2567,74,Female,East,West Bengal,Both,Medium,19,Bronze,2023-10-25
+CUST_000210,ABC_Gupta_6649,44,Male,South,Telangana,Debit Card,Medium,10,Silver,2024-09-21
+CUST_000211,ABC_Sharma_1535,74,Female,East,Odisha,Debit Card,Medium,15,Bronze,2022-09-07
+CUST_000212,ABC_Patel_7352,69,Female,East,Odisha,Both,Medium,18,Bronze,2023-09-13
+CUST_000213,ABC_Gupta_3635,30,Female,North,Punjab,Credit Card,Medium,30,Bronze,2024-06-21
+CUST_000214,ABC_Joshi_9619,58,Female,North,Haryana,Debit Card,Low,22,Gold,2022-05-20
+CUST_000215,ABC_Reddy_5379,20,Female,West,Maharashtra,Credit Card,Low,5,Silver,2023-12-27
+CUST_000216,ABC_Sharma_2200,56,Male,East,Odisha,Both,Low,23,Bronze,2023-05-23
+CUST_000217,ABC_Verma_6063,23,Female,South,Karnataka,Both,Low,18,Bronze,2024-09-05
+CUST_000218,ABC_Patel_4251,25,Female,West,Madhya Pradesh,Credit Card,High,4,Silver,2023-01-26
+CUST_000219,ABC_Gupta_2664,44,Male,South,Karnataka,Debit Card,High,25,Silver,2024-01-15
+CUST_000220,ABC_Patel_6977,26,Male,North,Punjab,Both,High,3,Silver,2024-10-10
+CUST_000221,ABC_Sharma_2200,54,Male,West,Goa,Credit Card,Medium,14,Bronze,2024-02-25
+CUST_000222,ABC_Sharma_9074,50,Female,East,West Bengal,Debit Card,Low,28,Silver,2023-04-22
+CUST_000223,ABC_Verma_4274,68,Other,East,Jharkhand,Both,Medium,3,Silver,2024-08-23
+CUST_000224,ABC_Joshi_2227,59,Male,North,Punjab,Credit Card,Low,19,Bronze,2023-12-28
+CUST_000225,ABC_Patel_1524,61,Female,North,Rajasthan,Debit Card,High,9,Gold,2023-12-08
+CUST_000226,ABC_Reddy_5523,41,Male,West,Maharashtra,Credit Card,Low,23,Gold,2024-10-24
+CUST_000227,ABC_Singh_8532,32,Other,North,Delhi,Both,Medium,21,Bronze,2022-09-16
+CUST_000228,ABC_Reddy_7155,71,Female,North,Delhi,Both,High,2,Bronze,2023-10-30
+CUST_000229,ABC_Reddy_4197,49,Female,South,Kerala,Both,Medium,25,Silver,2022-12-10
+CUST_000230,ABC_Patel_3856,49,Male,North,Rajasthan,Debit Card,Medium,4,Silver,2023-08-09
+CUST_000231,ABC_Kumar_8390,41,Male,East,Odisha,Both,Medium,5,Silver,2022-01-04
+CUST_000232,ABC_Reddy_6418,58,Male,West,Gujarat,Both,Medium,20,Silver,2022-04-16
+CUST_000233,ABC_Patel_8525,69,Male,West,Madhya Pradesh,Debit Card,Low,21,Bronze,2024-01-21
+CUST_000234,ABC_Verma_7366,66,Female,East,Jharkhand,Both,Medium,7,Silver,2023-03-06
+CUST_000235,ABC_Patel_8577,66,Female,East,West Bengal,Credit Card,Medium,6,Silver,2024-07-20
+CUST_000236,ABC_Sharma_8678,69,Other,East,Odisha,Debit Card,Medium,20,Silver,2022-02-02
+CUST_000237,ABC_Sharma_6440,29,Other,West,Maharashtra,Credit Card,Low,9,Bronze,2023-01-20
+CUST_000238,ABC_Gupta_5366,56,Female,West,Maharashtra,Credit Card,Medium,5,Bronze,2023-12-03
+CUST_000239,ABC_Reddy_9356,19,Female,North,Punjab,Credit Card,Medium,13,Bronze,2023-09-07
+CUST_000240,ABC_Reddy_3864,20,Female,South,Tamil Nadu,Debit Card,High,3,Gold,2024-05-25
+CUST_000241,ABC_Kumar_7793,66,Female,East,Odisha,Debit Card,High,27,Bronze,2023-09-06
+CUST_000242,ABC_Patel_1744,54,Male,North,Rajasthan,Debit Card,Medium,24,Bronze,2021-12-25
+CUST_000243,ABC_Kumar_2183,66,Male,West,Goa,Credit Card,High,12,Silver,2023-05-27
+CUST_000244,ABC_Verma_3239,73,Male,North,Uttar Pradesh,Debit Card,Medium,19,Silver,2024-05-09
+CUST_000245,ABC_Reddy_5483,34,Female,East,Jharkhand,Debit Card,Low,16,Silver,2024-06-20
+CUST_000246,ABC_Joshi_7524,66,Female,South,Tamil Nadu,Debit Card,High,22,Silver,2024-02-16
+CUST_000247,ABC_Kumar_1044,19,Male,South,Andhra Pradesh,Debit Card,Medium,6,Silver,2023-06-03
+CUST_000248,ABC_Joshi_9360,19,Female,East,West Bengal,Debit Card,Medium,3,Gold,2022-11-14
+CUST_000249,ABC_Joshi_5979,45,Female,North,Uttar Pradesh,Both,Low,28,Silver,2023-07-24
+CUST_000250,ABC_Kumar_7731,71,Male,East,West Bengal,Debit Card,Medium,13,Bronze,2023-09-08
+CUST_000251,ABC_Verma_6156,40,Male,South,Kerala,Credit Card,Low,2,Silver,2022-02-15
+CUST_000252,ABC_Kumar_6685,54,Female,East,Odisha,Credit Card,Medium,23,Bronze,2024-09-15
+CUST_000253,ABC_Reddy_3892,49,Female,West,Madhya Pradesh,Both,High,4,Bronze,2024-03-30
+CUST_000254,ABC_Joshi_7651,50,Female,South,Telangana,Credit Card,Medium,15,Bronze,2024-03-28
+CUST_000255,ABC_Sharma_5643,18,Female,East,West Bengal,Both,Low,25,Bronze,2022-10-15
+CUST_000256,ABC_Kumar_5431,36,Female,North,Punjab,Debit Card,Medium,22,Gold,2022-04-20
+CUST_000257,ABC_Joshi_1447,19,Female,West,Gujarat,Both,Low,19,Bronze,2023-04-29
+CUST_000258,ABC_Patel_8167,70,Female,West,Goa,Debit Card,Low,3,Gold,2022-01-09
+CUST_000259,ABC_Joshi_4627,61,Female,East,West Bengal,Both,Medium,23,Silver,2024-01-20
+CUST_000260,ABC_Verma_7398,43,Male,North,Rajasthan,Debit Card,Medium,29,Bronze,2023-10-16
+CUST_000261,ABC_Joshi_5424,49,Male,East,Jharkhand,Debit Card,Medium,23,Gold,2023-09-04
+CUST_000262,ABC_Joshi_2362,23,Male,East,Bihar,Debit Card,Medium,1,Silver,2022-04-12
+CUST_000263,ABC_Reddy_3079,49,Female,East,Odisha,Debit Card,Low,29,Bronze,2022-05-05
+CUST_000264,ABC_Sharma_8781,72,Female,East,Odisha,Debit Card,Low,17,Bronze,2022-10-19
+CUST_000265,ABC_Reddy_5621,21,Female,North,Delhi,Both,Medium,18,Bronze,2022-09-23
+CUST_000266,ABC_Verma_7894,72,Male,South,Andhra Pradesh,Both,Medium,30,Silver,2022-03-14
+CUST_000267,ABC_Verma_7323,28,Male,West,Madhya Pradesh,Debit Card,Low,27,Bronze,2022-07-03
+CUST_000268,ABC_Reddy_6303,73,Male,East,Bihar,Debit Card,Medium,27,Silver,2023-10-12
+CUST_000269,ABC_Verma_2932,34,Male,South,Tamil Nadu,Debit Card,Low,18,Bronze,2024-06-19
+CUST_000270,ABC_Kumar_4094,55,Female,East,Bihar,Debit Card,Medium,16,Bronze,2023-08-23
+CUST_000271,ABC_Sharma_6636,41,Male,East,West Bengal,Credit Card,Medium,30,Bronze,2024-08-13
+CUST_000272,ABC_Reddy_7414,22,Male,West,Goa,Credit Card,High,13,Bronze,2023-07-12
+CUST_000273,ABC_Reddy_4145,69,Female,South,Karnataka,Debit Card,Medium,18,Gold,2023-04-21
+CUST_000274,ABC_Gupta_4196,51,Male,South,Karnataka,Credit Card,Medium,21,Bronze,2022-06-03
+CUST_000275,ABC_Sharma_6449,23,Female,East,West Bengal,Credit Card,Medium,23,Bronze,2024-02-25
+CUST_000276,ABC_Sharma_9214,39,Female,North,Punjab,Credit Card,High,12,Gold,2024-11-01
+CUST_000277,ABC_Verma_2764,28,Male,West,Goa,Credit Card,Low,11,Bronze,2022-12-19
+CUST_000278,ABC_Verma_3453,65,Female,North,Rajasthan,Credit Card,Low,29,Silver,2024-09-09
+CUST_000279,ABC_Sharma_5081,33,Female,North,Punjab,Both,Medium,25,Bronze,2022-08-04
+CUST_000280,ABC_Gupta_1788,50,Female,North,Haryana,Debit Card,High,5,Bronze,2022-09-06
+CUST_000281,ABC_Gupta_9799,26,Male,South,Andhra Pradesh,Debit Card,High,20,Bronze,2022-03-01
+CUST_000282,ABC_Singh_3325,23,Female,South,Andhra Pradesh,Debit Card,Medium,30,Gold,2022-12-14
+CUST_000283,ABC_Singh_1933,33,Female,West,Goa,Credit Card,Medium,3,Bronze,2022-06-25
+CUST_000284,ABC_Kumar_2909,46,Male,South,Karnataka,Both,Medium,18,Bronze,2022-08-27
+CUST_000285,ABC_Verma_3543,20,Male,South,Andhra Pradesh,Debit Card,Medium,15,Bronze,2024-11-16
+CUST_000286,ABC_Singh_4859,37,Other,West,Maharashtra,Credit Card,Medium,12,Silver,2023-02-12
+CUST_000287,ABC_Gupta_6817,53,Female,South,Andhra Pradesh,Debit Card,Medium,3,Silver,2023-05-26
+CUST_000288,ABC_Singh_5443,36,Male,North,Punjab,Both,Medium,29,Bronze,2023-08-22
+CUST_000289,ABC_Joshi_7743,43,Female,East,West Bengal,Both,Low,22,Silver,2024-04-02
+CUST_000290,ABC_Sharma_8342,20,Male,South,Karnataka,Debit Card,High,16,Bronze,2022-09-18
+CUST_000291,ABC_Kumar_2905,36,Male,East,Bihar,Debit Card,Medium,22,Bronze,2023-05-21
+CUST_000292,ABC_Singh_3349,37,Male,South,Tamil Nadu,Credit Card,Medium,0,Bronze,2022-10-01
+CUST_000293,ABC_Verma_9238,49,Male,East,Bihar,Both,Medium,17,Bronze,2024-01-21
+CUST_000294,ABC_Joshi_4526,24,Male,East,Bihar,Credit Card,Low,30,Bronze,2024-08-12
+CUST_000295,ABC_Verma_3490,69,Male,South,Telangana,Both,Medium,19,Gold,2024-08-27
+CUST_000296,ABC_Joshi_1067,58,Female,South,Tamil Nadu,Debit Card,Low,16,Gold,2022-03-21
+CUST_000297,ABC_Verma_5037,50,Male,North,Delhi,Debit Card,High,26,Gold,2024-06-15
+CUST_000298,ABC_Gupta_1220,57,Male,South,Kerala,Debit Card,High,27,Gold,2022-10-27
+CUST_000299,ABC_Gupta_3285,56,Female,North,Delhi,Credit Card,Low,26,Bronze,2024-01-14
+CUST_000300,ABC_Kumar_1991,35,Male,West,Maharashtra,Credit Card,Medium,14,Bronze,2022-06-15
+CUST_000301,ABC_Patel_6895,57,Female,East,West Bengal,Credit Card,Medium,10,Bronze,2022-01-12
+CUST_000302,ABC_Sharma_9197,18,Male,West,Maharashtra,Credit Card,High,24,Bronze,2024-11-02
+CUST_000303,ABC_Reddy_5901,28,Male,West,Maharashtra,Debit Card,High,27,Bronze,2022-10-30
+CUST_000304,ABC_Reddy_7739,45,Male,East,Jharkhand,Debit Card,Low,21,Bronze,2024-08-13
+CUST_000305,ABC_Patel_6277,74,Male,East,Bihar,Credit Card,High,12,Bronze,2023-01-31
+CUST_000306,ABC_Kumar_5744,42,Male,South,Tamil Nadu,Both,Medium,0,Bronze,2024-09-04
+CUST_000307,ABC_Kumar_7342,67,Male,East,West Bengal,Both,Medium,16,Silver,2022-07-10
+CUST_000308,ABC_Verma_7866,40,Male,North,Delhi,Both,Medium,5,Gold,2024-04-25
+CUST_000309,ABC_Verma_8688,48,Male,West,Maharashtra,Both,High,3,Silver,2023-09-08
+CUST_000310,ABC_Kumar_8022,47,Male,North,Punjab,Credit Card,Medium,19,Bronze,2023-02-17
+CUST_000311,ABC_Gupta_4383,59,Male,North,Haryana,Debit Card,High,15,Bronze,2022-09-02
+CUST_000312,ABC_Kumar_2319,52,Male,South,Telangana,Debit Card,Low,14,Silver,2022-12-13
+CUST_000313,ABC_Kumar_6351,24,Female,North,Haryana,Debit Card,Medium,26,Silver,2023-03-11
+CUST_000314,ABC_Singh_5933,33,Female,North,Punjab,Credit Card,Medium,14,Bronze,2024-03-09
+CUST_000315,ABC_Reddy_2421,43,Male,West,Goa,Both,Low,5,Gold,2022-03-31
+CUST_000316,ABC_Sharma_9482,65,Female,East,Bihar,Credit Card,Medium,14,Silver,2024-08-03
+CUST_000317,ABC_Patel_5117,74,Female,West,Maharashtra,Credit Card,Medium,13,Bronze,2023-04-17
+CUST_000318,ABC_Reddy_9906,69,Male,East,Bihar,Debit Card,Medium,27,Silver,2024-05-29
+CUST_000319,ABC_Gupta_9442,66,Female,North,Punjab,Debit Card,Medium,10,Gold,2022-03-27
+CUST_000320,ABC_Verma_3792,19,Female,South,Andhra Pradesh,Debit Card,Medium,6,Bronze,2024-01-31
+CUST_000321,ABC_Verma_6083,18,Male,West,Maharashtra,Credit Card,Low,8,Bronze,2024-05-24
+CUST_000322,ABC_Sharma_8327,65,Male,South,Andhra Pradesh,Both,Medium,25,Bronze,2022-02-27
+CUST_000323,ABC_Reddy_5438,29,Female,East,West Bengal,Credit Card,Medium,15,Silver,2023-08-02
+CUST_000324,ABC_Singh_9658,22,Female,West,Gujarat,Credit Card,Low,4,Silver,2024-01-30
+CUST_000325,ABC_Verma_6721,54,Male,South,Tamil Nadu,Both,Medium,24,Silver,2024-05-12
+CUST_000326,ABC_Kumar_3170,49,Male,East,Odisha,Both,High,19,Bronze,2023-09-03
+CUST_000327,ABC_Patel_7618,72,Male,North,Punjab,Both,Medium,28,Bronze,2023-05-09
+CUST_000328,ABC_Singh_7347,26,Female,East,Bihar,Both,Low,9,Gold,2022-08-25
+CUST_000329,ABC_Singh_9010,58,Female,South,Andhra Pradesh,Debit Card,High,17,Bronze,2022-04-02
+CUST_000330,ABC_Reddy_9653,52,Male,East,Odisha,Debit Card,Medium,2,Gold,2023-02-16
+CUST_000331,ABC_Patel_1275,36,Male,North,Uttar Pradesh,Credit Card,Medium,12,Silver,2022-08-01
+CUST_000332,ABC_Sharma_7023,65,Female,East,Bihar,Debit Card,Medium,10,Gold,2022-05-02
+CUST_000333,ABC_Joshi_1209,33,Male,West,Gujarat,Debit Card,High,16,Silver,2022-06-24
+CUST_000334,ABC_Joshi_4237,20,Male,South,Tamil Nadu,Credit Card,Medium,29,Bronze,2021-12-29
+CUST_000335,ABC_Gupta_8369,37,Female,East,Odisha,Debit Card,Low,29,Bronze,2022-01-07
+CUST_000336,ABC_Sharma_2258,41,Female,West,Maharashtra,Debit Card,Medium,21,Gold,2023-08-22
+CUST_000337,ABC_Sharma_2499,71,Female,West,Gujarat,Credit Card,Medium,12,Bronze,2022-10-20
+CUST_000338,ABC_Singh_5521,73,Female,North,Uttar Pradesh,Credit Card,Low,5,Gold,2022-02-08
+CUST_000339,ABC_Gupta_2649,50,Male,North,Haryana,Debit Card,Low,16,Bronze,2023-02-28
+CUST_000340,ABC_Kumar_9684,41,Male,East,Bihar,Credit Card,Medium,26,Bronze,2022-09-28
+CUST_000341,ABC_Reddy_7408,69,Female,South,Andhra Pradesh,Both,Medium,12,Silver,2022-09-16
+CUST_000342,ABC_Joshi_4882,28,Male,West,Maharashtra,Debit Card,High,18,Bronze,2022-01-12
+CUST_000343,ABC_Sharma_3357,66,Male,North,Punjab,Debit Card,Low,20,Silver,2023-06-07
+CUST_000344,ABC_Reddy_4566,25,Male,East,West Bengal,Debit Card,Low,18,Gold,2024-05-06
+CUST_000345,ABC_Singh_3109,53,Male,South,Tamil Nadu,Both,Medium,9,Silver,2022-12-13
+CUST_000346,ABC_Verma_3796,55,Male,East,Bihar,Debit Card,Low,2,Bronze,2023-04-05
+CUST_000347,ABC_Sharma_7803,57,Male,South,Kerala,Debit Card,Medium,13,Bronze,2022-09-06
+CUST_000348,ABC_Reddy_3255,37,Male,South,Andhra Pradesh,Debit Card,Medium,25,Gold,2023-06-26
+CUST_000349,ABC_Verma_4299,52,Male,West,Gujarat,Credit Card,High,18,Bronze,2022-07-25
+CUST_000350,ABC_Sharma_3142,65,Female,South,Karnataka,Both,Low,4,Bronze,2024-10-23
+CUST_000351,ABC_Verma_7673,42,Female,South,Telangana,Debit Card,High,28,Bronze,2023-10-20
+CUST_000352,ABC_Joshi_5454,52,Female,West,Maharashtra,Debit Card,Low,4,Bronze,2024-07-19
+CUST_000353,ABC_Verma_9533,42,Female,North,Haryana,Both,Low,19,Bronze,2022-01-13
+CUST_000354,ABC_Patel_5662,46,Female,East,Bihar,Both,Low,16,Gold,2022-02-09
+CUST_000355,ABC_Kumar_3144,35,Male,North,Haryana,Debit Card,High,20,Gold,2022-08-14
+CUST_000356,ABC_Verma_3296,63,Female,North,Uttar Pradesh,Both,Medium,9,Bronze,2022-04-16
+CUST_000357,ABC_Singh_6612,35,Female,West,Madhya Pradesh,Debit Card,Medium,4,Silver,2024-08-30
+CUST_000358,ABC_Verma_6779,19,Female,East,Odisha,Debit Card,Medium,3,Bronze,2024-10-22
+CUST_000359,ABC_Gupta_2263,71,Male,South,Tamil Nadu,Debit Card,High,5,Bronze,2023-12-21
+CUST_000360,ABC_Gupta_4286,52,Male,East,Jharkhand,Debit Card,Low,25,Gold,2022-02-09
+CUST_000361,ABC_Kumar_5445,33,Male,South,Andhra Pradesh,Credit Card,Medium,3,Gold,2022-11-18
+CUST_000362,ABC_Kumar_3989,58,Male,East,Odisha,Both,Medium,29,Silver,2022-02-06
+CUST_000363,ABC_Patel_5833,53,Female,East,Bihar,Both,Medium,6,Bronze,2022-10-15
+CUST_000364,ABC_Singh_2184,50,Female,South,Karnataka,Credit Card,Medium,6,Silver,2024-04-10
+CUST_000365,ABC_Reddy_5397,21,Male,South,Kerala,Both,Medium,17,Silver,2022-07-24
+CUST_000366,ABC_Patel_9941,50,Other,North,Uttar Pradesh,Credit Card,Medium,2,Silver,2022-02-19
+CUST_000367,ABC_Joshi_7906,31,Female,North,Haryana,Debit Card,Low,0,Gold,2022-02-20
+CUST_000368,ABC_Sharma_5810,38,Male,East,Odisha,Debit Card,Medium,23,Silver,2024-01-07
+CUST_000369,ABC_Joshi_7473,65,Male,West,Maharashtra,Credit Card,Low,24,Gold,2022-06-10
+CUST_000370,ABC_Sharma_4226,37,Male,South,Karnataka,Both,Low,3,Bronze,2023-08-18
+CUST_000371,ABC_Patel_9574,73,Male,North,Punjab,Both,Medium,5,Silver,2023-02-02
+CUST_000372,ABC_Verma_9223,25,Male,South,Kerala,Debit Card,Low,8,Silver,2023-09-12
+CUST_000373,ABC_Sharma_8626,24,Male,West,Gujarat,Credit Card,High,21,Silver,2024-06-09
+CUST_000374,ABC_Singh_3576,20,Male,West,Madhya Pradesh,Credit Card,Low,13,Silver,2023-04-18
+CUST_000375,ABC_Joshi_7713,34,Male,East,Jharkhand,Debit Card,Medium,27,Bronze,2024-04-07
+CUST_000376,ABC_Kumar_7245,50,Female,North,Rajasthan,Both,Low,11,Bronze,2022-04-18
+CUST_000377,ABC_Gupta_7538,65,Male,North,Delhi,Debit Card,Low,27,Gold,2022-06-22
+CUST_000378,ABC_Sharma_3826,29,Female,South,Kerala,Credit Card,Low,24,Bronze,2022-02-24
+CUST_000379,ABC_Joshi_3189,68,Male,West,Maharashtra,Debit Card,Low,30,Gold,2024-09-23
+CUST_000380,ABC_Reddy_8118,39,Other,East,Bihar,Debit Card,Medium,19,Gold,2023-10-02
+CUST_000381,ABC_Gupta_6638,72,Male,North,Rajasthan,Debit Card,High,23,Bronze,2023-10-23
+CUST_000382,ABC_Verma_6013,39,Male,North,Punjab,Credit Card,Medium,24,Bronze,2023-11-12
+CUST_000383,ABC_Singh_5644,63,Other,North,Delhi,Debit Card,High,3,Bronze,2024-11-15
+CUST_000384,ABC_Gupta_2522,47,Female,East,Odisha,Debit Card,Medium,20,Silver,2024-06-14
+CUST_000385,ABC_Joshi_3055,55,Female,South,Karnataka,Both,Medium,29,Bronze,2022-04-25
+CUST_000386,ABC_Gupta_1491,55,Male,West,Gujarat,Debit Card,Low,23,Gold,2024-04-05
+CUST_000387,ABC_Patel_8003,62,Male,North,Haryana,Debit Card,Medium,11,Silver,2024-03-25
+CUST_000388,ABC_Reddy_4177,68,Female,North,Rajasthan,Both,Low,9,Bronze,2023-05-13
+CUST_000389,ABC_Patel_3153,71,Female,South,Andhra Pradesh,Credit Card,High,29,Silver,2023-11-03
+CUST_000390,ABC_Kumar_2975,25,Female,East,Bihar,Both,Low,21,Bronze,2023-08-06
+CUST_000391,ABC_Singh_3683,44,Female,East,Odisha,Debit Card,Low,27,Bronze,2022-11-22
+CUST_000392,ABC_Sharma_5845,44,Male,South,Karnataka,Credit Card,Medium,6,Gold,2024-10-17
+CUST_000393,ABC_Reddy_5054,51,Female,West,Madhya Pradesh,Debit Card,Medium,2,Bronze,2024-06-09
+CUST_000394,ABC_Patel_1543,38,Male,North,Punjab,Debit Card,Low,22,Bronze,2023-11-03
+CUST_000395,ABC_Kumar_6470,47,Male,North,Haryana,Credit Card,High,27,Silver,2022-09-24
+CUST_000396,ABC_Kumar_5685,50,Male,East,Bihar,Debit Card,Medium,13,Bronze,2022-05-04
+CUST_000397,ABC_Patel_1031,45,Female,West,Maharashtra,Debit Card,Medium,23,Bronze,2022-12-02
+CUST_000398,ABC_Verma_6422,64,Male,North,Delhi,Debit Card,High,9,Gold,2023-11-21
+CUST_000399,ABC_Verma_1203,50,Male,West,Madhya Pradesh,Credit Card,Medium,15,Bronze,2022-11-02
+CUST_000400,ABC_Reddy_8063,22,Female,North,Rajasthan,Both,High,15,Bronze,2024-04-05
+CUST_000401,ABC_Kumar_8748,65,Male,East,Jharkhand,Both,High,21,Gold,2022-10-06
+CUST_000402,ABC_Reddy_8633,36,Female,South,Andhra Pradesh,Both,High,30,Bronze,2022-04-22
+CUST_000403,ABC_Joshi_3907,21,Male,West,Gujarat,Debit Card,Low,9,Silver,2023-09-12
+CUST_000404,ABC_Kumar_7871,52,Female,East,Jharkhand,Credit Card,Medium,24,Bronze,2023-09-30
+CUST_000405,ABC_Reddy_9161,66,Female,West,Madhya Pradesh,Debit Card,Low,12,Bronze,2024-05-25
+CUST_000406,ABC_Joshi_1007,34,Male,South,Kerala,Credit Card,Medium,5,Silver,2022-09-07
+CUST_000407,ABC_Joshi_6924,61,Male,South,Andhra Pradesh,Credit Card,Medium,11,Silver,2022-08-29
+CUST_000408,ABC_Joshi_4351,45,Male,North,Rajasthan,Debit Card,Medium,8,Bronze,2023-09-19
+CUST_000409,ABC_Reddy_4038,47,Male,West,Gujarat,Debit Card,Medium,12,Silver,2024-02-29
+CUST_000410,ABC_Joshi_7777,46,Other,East,Bihar,Debit Card,High,3,Bronze,2023-10-08
+CUST_000411,ABC_Patel_3021,63,Male,North,Punjab,Debit Card,Medium,23,Gold,2024-04-27
+CUST_000412,ABC_Reddy_9762,70,Female,East,Bihar,Debit Card,Medium,10,Bronze,2024-01-13
+CUST_000413,ABC_Singh_3175,23,Male,West,Goa,Credit Card,Medium,19,Bronze,2022-04-17
+CUST_000414,ABC_Verma_7756,52,Female,South,Andhra Pradesh,Both,Medium,17,Bronze,2024-04-26
+CUST_000415,ABC_Reddy_2585,58,Female,East,Jharkhand,Debit Card,High,25,Gold,2022-03-22
+CUST_000416,ABC_Patel_3539,54,Female,West,Goa,Debit Card,High,10,Bronze,2022-03-18
+CUST_000417,ABC_Reddy_5272,41,Male,South,Andhra Pradesh,Credit Card,Low,24,Bronze,2023-04-01
+CUST_000418,ABC_Singh_4170,46,Male,South,Karnataka,Debit Card,Medium,20,Silver,2023-08-12
+CUST_000419,ABC_Reddy_5707,66,Male,North,Punjab,Debit Card,High,3,Silver,2023-01-14
+CUST_000420,ABC_Joshi_3329,63,Female,North,Rajasthan,Credit Card,Low,17,Gold,2022-07-09
+CUST_000421,ABC_Joshi_4801,70,Female,South,Andhra Pradesh,Credit Card,High,0,Bronze,2023-11-13
+CUST_000422,ABC_Joshi_7510,48,Other,South,Tamil Nadu,Debit Card,Medium,26,Bronze,2022-07-03
+CUST_000423,ABC_Singh_4080,52,Male,East,Jharkhand,Debit Card,Low,6,Gold,2022-08-20
+CUST_000424,ABC_Joshi_9980,50,Female,North,Uttar Pradesh,Credit Card,Medium,5,Bronze,2022-04-16
+CUST_000425,ABC_Verma_7772,69,Female,West,Madhya Pradesh,Both,High,30,Silver,2024-02-18
+CUST_000426,ABC_Verma_9776,38,Male,East,West Bengal,Credit Card,High,14,Gold,2023-04-23
+CUST_000427,ABC_Verma_4808,49,Male,East,Bihar,Debit Card,Medium,17,Bronze,2023-12-24
+CUST_000428,ABC_Gupta_3115,40,Female,North,Delhi,Both,High,23,Bronze,2022-04-17
+CUST_000429,ABC_Gupta_1274,50,Female,East,West Bengal,Debit Card,Medium,10,Bronze,2022-08-01
+CUST_000430,ABC_Reddy_8133,20,Female,East,West Bengal,Debit Card,High,19,Gold,2024-01-05
+CUST_000431,ABC_Singh_9435,35,Male,West,Goa,Debit Card,Medium,23,Bronze,2022-07-03
+CUST_000432,ABC_Patel_8029,42,Female,West,Gujarat,Credit Card,Low,14,Silver,2023-02-09
+CUST_000433,ABC_Reddy_7440,59,Male,South,Tamil Nadu,Both,Low,15,Silver,2024-01-15
+CUST_000434,ABC_Verma_5304,48,Male,North,Uttar Pradesh,Debit Card,Medium,6,Silver,2023-12-07
+CUST_000435,ABC_Singh_4892,71,Male,North,Rajasthan,Both,Medium,20,Bronze,2022-03-26
+CUST_000436,ABC_Patel_2594,20,Female,North,Uttar Pradesh,Credit Card,Medium,9,Bronze,2022-06-07
+CUST_000437,ABC_Kumar_3917,57,Female,West,Madhya Pradesh,Credit Card,Medium,25,Silver,2022-01-06
+CUST_000438,ABC_Kumar_8353,63,Female,West,Gujarat,Credit Card,Medium,11,Bronze,2023-06-01
+CUST_000439,ABC_Singh_9576,41,Male,North,Uttar Pradesh,Debit Card,High,23,Bronze,2023-06-20
+CUST_000440,ABC_Joshi_9978,67,Female,East,Bihar,Debit Card,Low,13,Silver,2022-08-09
+CUST_000441,ABC_Joshi_5513,49,Male,North,Delhi,Both,Medium,24,Bronze,2023-01-09
+CUST_000442,ABC_Kumar_9831,64,Female,West,Maharashtra,Debit Card,High,4,Bronze,2022-01-30
+CUST_000443,ABC_Kumar_6330,39,Male,South,Karnataka,Both,Medium,25,Silver,2022-11-04
+CUST_000444,ABC_Sharma_5993,40,Male,North,Uttar Pradesh,Credit Card,Medium,20,Silver,2024-01-07
+CUST_000445,ABC_Kumar_3986,19,Male,North,Punjab,Both,Low,17,Bronze,2024-09-11
+CUST_000446,ABC_Kumar_6288,44,Male,East,West Bengal,Debit Card,Low,4,Bronze,2024-04-20
+CUST_000447,ABC_Verma_3571,59,Female,West,Madhya Pradesh,Debit Card,Low,2,Bronze,2024-01-27
+CUST_000448,ABC_Joshi_2975,19,Female,North,Delhi,Both,High,22,Silver,2024-07-04
+CUST_000449,ABC_Kumar_1275,43,Male,West,Madhya Pradesh,Debit Card,Medium,25,Bronze,2023-08-03
+CUST_000450,ABC_Joshi_8356,34,Female,West,Maharashtra,Debit Card,Medium,4,Gold,2024-10-19
+CUST_000451,ABC_Patel_1584,57,Male,West,Goa,Credit Card,High,23,Gold,2022-08-29
+CUST_000452,ABC_Joshi_3058,50,Female,West,Maharashtra,Credit Card,Medium,16,Bronze,2022-04-16
+CUST_000453,ABC_Joshi_5731,26,Female,West,Goa,Both,Low,18,Silver,2022-11-06
+CUST_000454,ABC_Verma_2826,60,Female,West,Goa,Debit Card,High,18,Silver,2023-01-27
+CUST_000455,ABC_Reddy_9466,71,Male,North,Punjab,Debit Card,Medium,24,Silver,2022-08-06
+CUST_000456,ABC_Reddy_8966,65,Female,East,Bihar,Debit Card,Medium,20,Silver,2023-06-12
+CUST_000457,ABC_Sharma_6536,56,Female,South,Kerala,Credit Card,High,11,Gold,2023-07-08
+CUST_000458,ABC_Kumar_1012,46,Male,South,Karnataka,Credit Card,Medium,24,Bronze,2023-04-10
+CUST_000459,ABC_Reddy_2316,59,Male,South,Telangana,Debit Card,Low,28,Silver,2022-10-10
+CUST_000460,ABC_Joshi_9969,72,Female,South,Karnataka,Debit Card,Low,8,Bronze,2022-05-17
+CUST_000461,ABC_Patel_1136,43,Female,North,Haryana,Credit Card,Low,0,Bronze,2022-05-07
+CUST_000462,ABC_Verma_7611,52,Female,East,West Bengal,Debit Card,Medium,17,Bronze,2023-08-24
+CUST_000463,ABC_Patel_3714,67,Female,West,Goa,Credit Card,High,20,Gold,2024-09-15
+CUST_000464,ABC_Reddy_4235,42,Female,West,Gujarat,Debit Card,Medium,3,Bronze,2023-06-22
+CUST_000465,ABC_Kumar_8042,41,Male,North,Uttar Pradesh,Credit Card,Medium,30,Bronze,2022-01-21
+CUST_000466,ABC_Verma_9769,30,Male,South,Telangana,Debit Card,Low,9,Bronze,2022-07-26
+CUST_000467,ABC_Sharma_8280,24,Male,South,Andhra Pradesh,Debit Card,High,24,Bronze,2024-04-05
+CUST_000468,ABC_Reddy_1659,74,Female,South,Andhra Pradesh,Debit Card,Medium,6,Bronze,2024-08-30
+CUST_000469,ABC_Singh_1078,53,Male,South,Karnataka,Credit Card,High,21,Silver,2024-08-08
+CUST_000470,ABC_Patel_6168,62,Female,South,Karnataka,Credit Card,Medium,22,Bronze,2024-09-26
+CUST_000471,ABC_Kumar_3272,37,Female,West,Maharashtra,Debit Card,Low,0,Bronze,2022-11-17
+CUST_000472,ABC_Patel_5086,18,Female,West,Maharashtra,Debit Card,Medium,16,Bronze,2022-04-09
+CUST_000473,ABC_Kumar_5234,25,Male,North,Haryana,Debit Card,Medium,23,Bronze,2024-01-28
+CUST_000474,ABC_Joshi_9625,63,Female,South,Telangana,Credit Card,Medium,28,Silver,2022-09-06
+CUST_000475,ABC_Sharma_9532,33,Male,West,Gujarat,Debit Card,Medium,28,Bronze,2024-03-21
+CUST_000476,ABC_Patel_2863,31,Female,West,Maharashtra,Both,Low,1,Gold,2022-07-08
+CUST_000477,ABC_Kumar_5226,29,Male,North,Haryana,Debit Card,Low,27,Gold,2024-04-11
+CUST_000478,ABC_Joshi_5647,68,Male,South,Karnataka,Credit Card,Low,25,Gold,2022-09-29
+CUST_000479,ABC_Verma_3830,40,Female,West,Madhya Pradesh,Debit Card,Low,10,Silver,2022-03-30
+CUST_000480,ABC_Reddy_2910,32,Male,East,West Bengal,Credit Card,Medium,8,Bronze,2024-09-17
+CUST_000481,ABC_Singh_5752,45,Male,South,Telangana,Credit Card,Medium,6,Gold,2022-10-28
+CUST_000482,ABC_Sharma_6408,51,Female,South,Telangana,Both,Medium,21,Gold,2022-06-13
+CUST_000483,ABC_Patel_3420,19,Female,North,Rajasthan,Credit Card,Medium,16,Bronze,2023-06-02
+CUST_000484,ABC_Gupta_6824,49,Female,East,Bihar,Debit Card,Low,16,Bronze,2024-01-08
+CUST_000485,ABC_Verma_2354,40,Female,North,Haryana,Debit Card,High,1,Bronze,2024-01-04
+CUST_000486,ABC_Sharma_3042,39,Female,South,Kerala,Debit Card,Low,5,Bronze,2022-10-30
+CUST_000487,ABC_Patel_1171,68,Male,West,Goa,Debit Card,Medium,13,Bronze,2023-09-29
+CUST_000488,ABC_Patel_1986,42,Male,West,Goa,Credit Card,Medium,5,Gold,2024-01-16
+CUST_000489,ABC_Kumar_1331,39,Male,South,Andhra Pradesh,Debit Card,Medium,1,Silver,2022-07-06
+CUST_000490,ABC_Patel_9744,39,Female,South,Tamil Nadu,Debit Card,Low,0,Bronze,2022-01-21
+CUST_000491,ABC_Verma_4617,66,Female,North,Haryana,Credit Card,Medium,9,Silver,2023-11-25
+CUST_000492,ABC_Kumar_9518,69,Male,West,Gujarat,Debit Card,Medium,20,Bronze,2023-05-27
+CUST_000493,ABC_Sharma_2958,59,Male,West,Goa,Credit Card,High,4,Gold,2023-12-10
+CUST_000494,ABC_Reddy_6858,23,Female,South,Karnataka,Credit Card,Medium,1,Silver,2024-02-24
+CUST_000495,ABC_Patel_3624,32,Male,North,Uttar Pradesh,Debit Card,High,21,Bronze,2022-11-11
+CUST_000496,ABC_Sharma_2620,71,Female,South,Andhra Pradesh,Credit Card,Low,15,Bronze,2022-06-03
+CUST_000497,ABC_Verma_6073,60,Female,South,Telangana,Debit Card,Medium,24,Bronze,2022-03-15
+CUST_000498,ABC_Verma_2576,54,Female,North,Punjab,Debit Card,Medium,1,Bronze,2022-09-30
+CUST_000499,ABC_Reddy_9116,50,Male,South,Karnataka,Both,High,9,Gold,2022-11-03
+CUST_000500,ABC_Patel_1817,25,Female,West,Madhya Pradesh,Credit Card,High,1,Gold,2023-10-21
